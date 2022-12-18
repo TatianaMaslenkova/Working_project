@@ -60,7 +60,7 @@ def search_contact_return_number_line(data_contact='иванов'):
                 #print(line)
                 count = line_number
                 return count
-        line_number+=1    
+            line_number+=1    
     if count == 0:
         return -1
     return count
